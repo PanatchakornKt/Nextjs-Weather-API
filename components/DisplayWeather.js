@@ -8,7 +8,7 @@ const DisplayWeather = ({ weather }) => {
     <>
       {weather.map((weathers) => (
         <div
-          className="rounded flex flex-col justify-center items-center text-center p-6 bg-white"
+          className="rounded flex flex-col justify-center items-center text-center p-4 bg-white"
           key={weathers.id}
         >
           <div className="text-md font-bold flex flex-col text-gray-900">
